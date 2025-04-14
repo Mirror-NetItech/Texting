@@ -1,0 +1,244 @@
+
+/* Base Styles (Existing CSS - Keep as is) */
+/* ... Your existing CSS code ... */
+
+
+
+/* Media Queries */
+
+/* Small Smartphones (Up to 480px) */
+@media (max-width: 480px) {
+  html {
+    font-size: 14px; /* Slightly smaller base font */
+  }
+
+  .topSpan {
+    font-size: 1.8rem; /* Smaller Top Navigation text */
+  }
+
+  .bottomSpan {
+    font-size: 1.4rem; /* Smaller Bottom Navigation text */
+  }
+
+  .custom-o {
+    width: 2rem;  /*Smaller custom O*/
+    height: 2rem;
+    border: 0.2rem solid #4CAF50;
+  }
+
+  .faaa{
+    max-height: 4vh;  /*Scale smaller images inside .faa */
+  }
+
+  .welcome-m {
+    font-size: 1.6rem; /* Smaller welcome message */
+  }
+
+  .content-section {
+    padding: 10px;  /* Reduce padding */
+    font-size: 1.6rem; /*Scale content font*/
+  }
+
+  .neumorphic-card {
+    padding: 10px; /* Reduce card padding */
+    margin: 10px auto;
+  }
+
+  .glass {
+    margin-top: 1vh; /* Adjust glass position */
+    margin-bottom: 0vh;
+  }
+    .menu_text {
+          font-size: .7rem; /* Relative font size */
+        }
+        .faa{
+          max-width: 89%;
+           max-height: 3.5vh;
+        }
+        .home-icon.rightt {
+         width: auto; /* Make the element responsive to the content inside*/
+         margin-left: 11%; /* Position from the center so it will always be at the center */
+        }
+        .section-top-nav .leftt {
+        display: flex;  /* Display the left items using flexbox*/
+        flex-direction: column; /* Stacked ontop of each other*/
+        align-items: center;  /* Positioned at the center from top to bottom*/
+        }
+  .bottom-nav {
+    height: 7vh; /* Increase to allow for text wrapping */
+  }
+    .home-icon {
+        display: flex;  /* Use flexbox to be able to justify the content inside it*/
+        align-items: center; /* Center all content vertically*/
+      justify-content: center; /* Position the image in the center*/
+    }
+}
+
+/* Larger Smartphones and Tablets (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 15px; /* Slightly larger font for tablets */
+  }
+
+  .topSpan {
+    font-size: 2.0rem; /* Smaller Top Navigation text */
+  }
+
+  .bottomSpan {
+    font-size: 1.6rem; /* Smaller Bottom Navigation text */
+  }
+  .custom-o {
+    width: 2.3rem;  /*Smaller custom O*/
+    height: 2.3rem;
+  }
+
+  .faaa{
+    max-height: 4.5vh;  /*Scale smaller images inside .faa */
+  }
+
+  .welcome-m {
+    font-size: 1.8rem; /* Smaller welcome message */
+  }
+
+  .content-section {
+    padding: 15px;  /* Reduce padding */
+    font-size: 1.8rem; /*Scale content font*/
+  }
+
+  .neumorphic-card {
+    padding: 15px; /* Reduce card padding */
+    margin: 15px auto;
+  }
+  .bottom-nav {
+    height: 7vh; /* Increase to allow for text wrapping */
+  }
+       .menu_text {
+          font-size: .7rem; /* Relative font size */
+        }
+          .faa{
+           max-width: 89%;
+           max-height: 3.5vh;
+        }
+              .home-icon.rightt {
+         width: auto; /* Make the element responsive to the content inside*/
+         margin-left: 11%; /* Position from the center so it will always be at the center */
+        }
+         .section-top-nav .leftt {
+        display: flex;  /* Display the left items using flexbox*/
+        flex-direction: column; /* Stacked ontop of each other*/
+        align-items: center;  /* Positioned at the center from top to bottom*/
+        }
+            .home-icon {
+        display: flex;  /* Use flexbox to be able to justify the content inside it*/
+        align-items: center; /* Center all content vertically*/
+      justify-content: center; /* Position the image in the center*/
+    }
+      .glass{
+  box-shadow: inset 8px 8px 8px #800000, inset -8px -8px 8px #FF4500;
+}
+.curved{
+  height: 6vh;
+}
+}
+
+/* Tablets in Landscape, Laptops, and Small Desktops (769px to 1279px) */
+@media (min-width: 769px) and (max-width: 1279px) {
+  html {
+    font-size: 16px; /* Adjust base font size */
+  }
+  .custom-o {
+    width: 2.7rem;  /*Smaller custom O*/
+    height: 2.7rem;
+  }
+  .topSpan {
+    font-size: 2.3rem;
+  }
+
+  .bottomSpan {
+    font-size: 1.8rem; /* Smaller Bottom Navigation text */
+  }
+  .faaa{
+    max-height: 5vh;  /*Scale smaller images inside .faa */
+  }
+
+  .welcome-m {
+    font-size: 2.0rem; /* welcome message */
+  }
+
+  .content-section {
+    padding: 15px;  /* Reduce padding */
+    font-size: 1.9rem; /*Scale content font*/
+  }
+
+  .neumorphic-card {
+    padding: 15px; /* Reduce card padding */
+    margin: 15px auto;
+  }
+      .bottom-nav {
+    height: 7vh; /* Increase to allow for text wrapping */
+  }
+            .home-icon.rightt {
+         width: auto; /* Make the element responsive to the content inside*/
+         margin-left: 11%; /* Position from the center so it will always be at the center */
+        }
+           .section-top-nav .leftt {
+        display: flex;  /* Display the left items using flexbox*/
+        flex-direction: column; /* Stacked ontop of each other*/
+        align-items: center;  /* Positioned at the center from top to bottom*/
+        }
+    .home-icon {
+        display: flex;  /* Use flexbox to be able to justify the content inside it*/
+        align-items: center; /* Center all content vertically*/
+      justify-content: center; /* Position the image in the center*/
+    }
+}
+
+/* Large Desktop Monitors (1280px and Up) */
+@media (min-width: 1280px) {
+  html {
+    font-size: 16px; /* Adjust base font size */
+  }
+
+  .topSpan {
+    font-size: 2.5rem; /* Maintain Top Navigation text */
+  }
+
+  .bottomSpan {
+    font-size: 2rem; /* Maintain Bottom Navigation text */
+  }
+
+  .welcome-m {
+    font-size: 2.2rem; /* Larger welcome message */
+  }
+  .custom-o {
+    width: 3rem;  /*Smaller custom O*/
+    height: 3rem;
+  }
+
+  .content-section {
+    padding: 20px; /* Increase padding */
+    font-size: 2.0rem; /*Scale content font*/
+  }
+
+  .neumorphic-card {
+    padding: 20px; /* Increase card padding */
+    margin: 20px auto;
+  }
+      .bottom-nav {
+    height: 7vh; /* Increase to allow for text wrapping */
+  }
+   .home-icon.rightt {
+         width: auto; /* Make the element responsive to the content inside*/
+         margin-left: 11%; /* Position from the center so it will always be at the center */
+        }
+         .section-top-nav .leftt {
+        display: flex;  /* Display the left items using flexbox*/
+        flex-direction: column; /* Stacked ontop of each other*/
+        align-items: center;  /* Positioned at the center from top to bottom*/
+        }
+        .home-icon {
+        display: flex;  /* Use flexbox to be able to justify the content inside it*/
+        align-items: center; /* Center all content vertically*/
+      justify-content: center; /* Position the image in the center*/
+    }
+}
